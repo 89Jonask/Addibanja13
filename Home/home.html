@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>Document</title>
+</head>
+<body class="bodyContainer">
+   
+    <h1 class="heading">
+        Alida Bard
+    </h1>
+    <div class="topnav" id="myTopnav">
+        <a href="/Users/alidabard/Jonatan/Inlämning/Home/home.html">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="/Users/alidabard/Jonatan/Inlämning/About/about.html">About</a>
+        <a href="javascript:void(document.body.style.backgroundColor='green'); javascript:event.preventDefault()" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+        <div class="collection-container">
+          <div clas="collection-content">
+            <div class="row">
+              <img style="width: 100%;height: 200px;" src="/Users/alidabard/Jonatan/Inlämning/Images/Reddress.jpg" alt="">
+              <img style="width: 400px;" src="/Users/alidabard/Jonatan/Inlämning/Images/Skärmavbild 2020-09-29 kl. 14.09.50.png" alt="">  
+            </div>
+            <div class="row">
+             <img style="width: 400px;" src="/Users/alidabard/Jonatan/Inlämning/Images/Reddress.jpg" alt="">
+              <img style="width: 400px;" src="/Users/alidabard/Jonatan/Inlämning/Images/Skärmavbild 2020-09-29 kl. 14.09.50.png" alt="">
+            </div>
+            <div class="row">
+              <img style="width: 400px;" src="/Users/alidabard/Jonatan/Inlämning/Images/Reddress.jpg" alt="">
+             </div>
+          </div>
+      </div>
+
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+</body>
+</html>
