@@ -54,9 +54,16 @@
 }
 
  .collection-content {
+    display: grid;
     float: left;
     margin: auto;
     justify-content: center;
+  }
+
+  .row {
+    justify-items: center;
+    align-items: center;
+    
   }
 
 @media screen and (max-width: 1000px){
